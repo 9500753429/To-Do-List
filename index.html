@@ -10,17 +10,15 @@
   <body class="bg-gray-50 text-gray-800">
     <!-- Navbar -->
     <nav class="bg-white shadow-lg">
-      <div
-        class="container mx-auto px-4 py-4 flex justify-between items-center"
-      >
+      <div class="container mx-auto px-4 py-4 flex justify-between items-center">
         <a href="#" class="text-2xl font-bold text-purple-600">To-Do List</a>
         <ul class="flex space-x-4">
-          <!-- All of these buttons currently lead to error pages as their functionality will be added in the future
-         after login and authentication has been implemented.-->
           <li>
-            <a href="error.html" class="hover:text-blue-600">Upcoming Tasks</a>
+            <a href="#upcoming-tasks" class="hover:text-blue-600">Upcoming Tasks</a>
           </li>
-          <li><a href="error.html" class="hover:text-blue-600">Friends</a></li>
+          <li>
+            <a href="#friends" class="hover:text-blue-600">Friends</a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -43,6 +41,42 @@
         >
           Start
         </a>
+      </div>
+    </section>
+
+    <!-- Upcoming Tasks Section -->
+    <section id="upcoming-tasks" class="py-8 bg-white text-gray-800">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-4">Upcoming Tasks</h2>
+        <ul>
+          <li class="bg-gray-100 p-4 mb-2 rounded-lg shadow-md">
+            <span class="font-semibold">Task 1:</span> Finish the project report.
+          </li>
+          <li class="bg-gray-100 p-4 mb-2 rounded-lg shadow-md">
+            <span class="font-semibold">Task 2:</span> Call the client for feedback.
+          </li>
+          <li class="bg-gray-100 p-4 mb-2 rounded-lg shadow-md">
+            <span class="font-semibold">Task 3:</span> Complete the design mockup.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Friends Section -->
+    <section id="friends" class="py-8 bg-gray-200 text-gray-800">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-4">Friends</h2>
+        <ul>
+          <li class="bg-white p-4 mb-2 rounded-lg shadow-md">
+            <span class="font-semibold">John Doe:</span> 5 tasks pending.
+          </li>
+          <li class="bg-white p-4 mb-2 rounded-lg shadow-md">
+            <span class="font-semibold">Jane Smith:</span> 3 tasks completed.
+          </li>
+          <li class="bg-white p-4 mb-2 rounded-lg shadow-md">
+            <span class="font-semibold">Mark Davis:</span> 2 new tasks assigned.
+          </li>
+        </ul>
       </div>
     </section>
 
